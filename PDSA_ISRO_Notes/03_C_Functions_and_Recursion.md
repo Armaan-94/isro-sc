@@ -33,7 +33,7 @@ int add(int x, int y) {       // definition: x, y are FORMAL parameters
 - A function may have several `return` statements (only one executes per call).
 - **`void`** return type: returns nothing. `void` in the parameter list: takes no arguments.
 - Old C rule: if no return type is written, it defaults to **int**. So a function returning a float **must** be declared with `float` (and prototyped), or its value gets misread as an int.
-- **Only one value can be returned.** `return (a, b);` returns just **b** (comma operator). To "return" several values, pass **pointers** (Chapter 04).
+- **Only one value can be returned.** `return (a, b);` returns just **b** (comma operator). To "return" several values, pass **pointers** ([Chapter 04](04_C_Arrays_and_Pointers.md)).
 
 ---
 
@@ -76,7 +76,7 @@ Strictly speaking this is still call by value: the **address** is copied. C has 
 
 - A variable declared inside a function is **local**: visible only there, created on each call, destroyed on return.
 - Global variables are visible to all functions after their declaration.
-- A **static** local variable keeps its value **between calls** and is initialised only once (Chapter 05). This matters a lot in recursion questions.
+- A **static** local variable keeps its value **between calls** and is initialised only once ([Chapter 05](05_C_Storage_Classes_Structures_Unions_Enums.md)). This matters a lot in recursion questions.
 
 ---
 
@@ -420,3 +420,7 @@ int main() { p(5); }
 (a) a function calls itself (b) two or more functions call each other in a cycle (c) recursion without a base case (d) recursion using static variables
 
 **Answer: (b).**
+
+---
+
+**Practice questions:** [2.03 C Functions and Recursion](../ISRO_CS_Question_Bank/02_Programming_DS_Algorithms/2.03_C_Functions_and_Recursion.md)

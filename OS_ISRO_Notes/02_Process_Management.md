@@ -239,7 +239,7 @@ Options a system can choose:
 - Resource sharing: parent and child share all, some, or no resources.
 - Execution: parent continues concurrently, or waits until children terminate.
 
-(We'll do `fork()` counting questions in Chapter 05.)
+(We'll do `fork()` counting questions in [Chapter 05](05_Threads_and_Multithreading.md).)
 
 ### Termination
 
@@ -383,3 +383,7 @@ Message passing can be **blocking (synchronous)** or **non-blocking (asynchronou
 (a) Ready -> Running (b) Running -> Ready (c) Running -> Waiting (d) Waiting -> Ready
 
 **Answer: (b).** Time slice expires, the process is preempted back to Ready.
+
+---
+
+**Practice questions:** [5.02 Process Management PCB States](../ISRO_CS_Question_Bank/05_Operating_Systems/5.02_Process_Management_PCB_States.md)

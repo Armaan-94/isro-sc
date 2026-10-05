@@ -77,7 +77,7 @@ MAC (keyed hash)    ->  Integrity + Authentication
 Digital signature   ->  Integrity + Authentication + Non-repudiation
 ```
 
-(Chapter 15 covers these in detail.)
+([Chapter 15](15_Hash_MAC_Digital_Signature_Authentication_Tools.md) covers these in detail.)
 
 ---
 
@@ -403,3 +403,7 @@ p = 23, g = 5, a = 6, b = 15.
 (a) the algorithm (b) the key (c) the ciphertext (d) the protocol
 
 **Answer: (b).**
+
+---
+
+**Practice questions:** [7.14 Network Security Cryptography](../ISRO_CS_Question_Bank/07_Computer_Networks/7.14_Network_Security_Cryptography.md)

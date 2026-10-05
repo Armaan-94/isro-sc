@@ -266,3 +266,7 @@ The text pointer i **never moves backward**.
 (a) KMP (b) Rabin-Karp (c) Boyer-Moore (d) Naive
 
 **Answer: (c).**
+
+---
+
+**Practice questions:** [2.21 String Matching](../ISRO_CS_Question_Bank/02_Programming_DS_Algorithms/2.21_String_Matching.md)

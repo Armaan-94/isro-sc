@@ -337,3 +337,7 @@ R is in **5NF** if every non-trivial join dependency is **implied by the candida
 (a) not in BCNF (b) in BCNF but not 4NF (c) in 4NF (d) not in 1NF
 
 **Answer: (b).** No non-trivial FDs (so BCNF), but Course →→ Teacher and Course →→ Book are non-trivial MVDs with Course not a super key.
+
+---
+
+**Practice questions:** [6.06 Decomposition MVD 4NF 5NF](../ISRO_CS_Question_Bank/06_DBMS/6.06_Decomposition_MVD_4NF_5NF.md)

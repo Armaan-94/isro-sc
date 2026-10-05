@@ -79,7 +79,7 @@ Vector clocks capture causality exactly: **a → b ⟺ V(a) < V(b)** (every comp
 
 ## 3. Distributed mutual exclusion
 
-Same three requirements as Chapter 04 (**mutual exclusion, progress, bounded waiting/fairness**), but now **without shared memory**: only messages.
+Same three requirements as [Chapter 04](04_Process_Synchronization.md) (**mutual exclusion, progress, bounded waiting/fairness**), but now **without shared memory**: only messages.
 
 ### 3.1 Centralized algorithm
 
@@ -355,3 +355,7 @@ A distributed data store can guarantee at most **two** of: **Consistency, Availa
 (a) too many messages always (b) token loss requires regeneration (c) violates mutual exclusion normally (d) needs a global clock
 
 **Answer: (b).**
+
+---
+
+**Practice questions:** [5.13 Distributed Systems](../ISRO_CS_Question_Bank/05_Operating_Systems/5.13_Distributed_Systems.md)

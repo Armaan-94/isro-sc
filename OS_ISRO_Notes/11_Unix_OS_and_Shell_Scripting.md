@@ -488,3 +488,7 @@ echo '$x'
 (a) stdout (b) stderr (c) stdin (d) the first opened file
 
 **Answer: (c).**
+
+---
+
+**Practice questions:** [5.11 Unix Commands Shell](../ISRO_CS_Question_Bank/05_Operating_Systems/5.11_Unix_Commands_Shell.md)

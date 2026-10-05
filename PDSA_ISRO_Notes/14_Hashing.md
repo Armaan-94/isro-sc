@@ -308,3 +308,7 @@ For a **static** set of keys, a two-level scheme gives **O(1) worst-case** looku
 (a) O(1) (b) O(log n) (c) O(n) (d) O(n log n)
 
 **Answer: (c).** All keys may land in one chain.
+
+---
+
+**Practice questions:** [2.14 Hashing](../ISRO_CS_Question_Bank/02_Programming_DS_Algorithms/2.14_Hashing.md)

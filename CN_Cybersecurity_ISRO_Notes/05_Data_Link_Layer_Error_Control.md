@@ -17,7 +17,7 @@ Example: at 1 Mbps, a 1 ms noise spike can corrupt up to 1000 bits.
 - **Correction:** "Which bits are wrong?" Needs more redundancy.
 
 Two ways to handle a detected error:
-- **Retransmission (ARQ):** ask the sender to send again (Chapter 04).
+- **Retransmission (ARQ):** ask the sender to send again ([Chapter 04](04_Data_Link_Layer_Flow_Control_ARQ.md)).
 - **Forward Error Correction (FEC):** fix it at the receiver using redundancy, no retransmission. Used where retransmission is impossible or too slow (live video, deep-space links, satellite telemetry).
 
 ---
@@ -373,3 +373,7 @@ Syndrome (C4 C2 C1) = 111 = **7**. Flip bit 7. (Never guess "no error" from a qu
 (a) 2 (b) 6 (c) 7 (d) 8
 
 **Answer: (d).** From bit 3 to bit 10 inclusive: 10 − 3 + 1 = 8.
+
+---
+
+**Practice questions:** [7.05 Error Control Hamming CRC Checksum](../ISRO_CS_Question_Bank/07_Computer_Networks/7.05_Error_Control_Hamming_CRC_Checksum.md)

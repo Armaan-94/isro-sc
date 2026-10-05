@@ -557,3 +557,7 @@ Shortcut worth remembering: under LRTF, when all processes arrive together, they
 **Answer: (d).**
 P1 0-10 (done), P2 10-20, P3 20-30, P2 30-40 (done), P3 40-50, P3 50-60 (done).
 CT = 10, 40, 60. Avg TAT = 110/3 = **36.67**. (Since all arrive at 0, TAT = CT.)
+
+---
+
+**Practice questions:** [5.03 CPU Scheduling](../ISRO_CS_Question_Bank/05_Operating_Systems/5.03_CPU_Scheduling.md)

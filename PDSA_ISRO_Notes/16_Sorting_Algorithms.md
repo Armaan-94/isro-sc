@@ -381,3 +381,7 @@ Memory trick for **unstable** sorts: "**Q**uick **S**elect a **H**eap of **Sh**e
 (a) Bubble (b) Insertion (c) Selection (d) Quick
 
 **Answer: (c).**
+
+---
+
+**Practice questions:** [2.16 Sorting Algorithms](../ISRO_CS_Question_Bank/02_Programming_DS_Algorithms/2.16_Sorting_Algorithms.md)

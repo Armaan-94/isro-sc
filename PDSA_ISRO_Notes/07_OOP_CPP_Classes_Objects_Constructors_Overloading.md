@@ -269,7 +269,7 @@ Str(const Str &o) { data = new char[strlen(o.data) + 1]; strcpy(data, o.data); }
 
 - Name `~ClassName`, **no arguments**, **no return type**.
 - **Cannot be overloaded** (exactly one per class).
-- **Can be virtual** (and should be in polymorphic base classes; Chapter 08).
+- **Can be virtual** (and should be in polymorphic base classes; [Chapter 08](08_OOP_CPP_Inheritance_Polymorphism_Templates.md)).
 - Called automatically when the object goes out of scope or is `delete`d.
 - Objects are destroyed in the **reverse order of construction**.
 
@@ -481,3 +481,7 @@ int main() { B obj; }
 (a) mutual (b) inherited (c) transitive (d) none of these
 
 **Answer: (d).**
+
+---
+
+**Practice questions:** [2.07 CPP Classes Constructors Overloading](../ISRO_CS_Question_Bank/02_Programming_DS_Algorithms/2.07_CPP_Classes_Constructors_Overloading.md)

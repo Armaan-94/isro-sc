@@ -60,16 +60,16 @@ Every square matrix = symmetric part (A + Aᵀ)/2 + skew part (A − Aᵀ)/2.
 | Skew-symmetric of **odd** order | 0 |
 
 - 3 × 3 with det 5 → det(2A) = 2³ × 5 = **40**.
-- [[1, 2, 3], [4, 5, 6], [7, 8, 9]]: row 3 − row 2 = row 2 − row 1, so rows are dependent → **0**.
+- `[[1, 2, 3], [4, 5, 6], [7, 8, 9]]`: row 3 − row 2 = row 2 − row 1, so rows are dependent → **0**.
 
 ## 4. Cofactors, adjoint, inverse
 
 - Cofactor Cᵢⱼ = (−1)^(i + j) × minor.
 - adj A = transpose of the cofactor matrix. A · adj A = (det A) I.
 - **A⁻¹ = adj A / det A**, only when det A ≠ 0.
-- **2 × 2 shortcut:** for [[a, b], [c, d]], inverse = (1/(ad − bc)) [[d, −b], [−c, a]]. Swap the diagonal, negate the off-diagonal.
+- **2 × 2 shortcut:** for `[[a, b], [c, d]]`, inverse = (1/(ad − bc)) `[[d, −b], [−c, a]]`. Swap the diagonal, negate the off-diagonal.
 
-[[2, 1], [5, 3]]: det = 1 → inverse **[[3, −1], [−5, 2]]**.
+`[[2, 1], [5, 3]]`: det = 1 → inverse **`[[3, −1], [−5, 2]]`**.
 
 ---
 
@@ -79,7 +79,7 @@ Every square matrix = symmetric part (A + Aᵀ)/2 + skew part (A − Aᵀ)/2.
 
 - rank ≤ min(m, n).
 - n × n matrix: full rank n ⟺ det ≠ 0 ⟺ invertible.
-- [[1, 2], [2, 4]]: row 2 = 2 × row 1 → **rank 1**.
+- `[[1, 2], [2, 4]]`: row 2 = 2 × row 1 → **rank 1**.
 
 ## 6. Systems of linear equations Ax = b
 
@@ -117,10 +117,10 @@ Methods: Gaussian elimination, Cramer's rule (xᵢ = det Aᵢ / det A), x = A⁻
 **Cayley-Hamilton theorem:** every square matrix satisfies its own characteristic equation. For a 2 × 2: A² − (tr A)A + (det A)I = 0.
 
 **Examples:**
-- [[2, 1], [1, 2]]: trace 4, det 3 → λ² − 4λ + 3 → **1, 3**.
-- [[4, 1], [2, 3]]: trace 7, det 10 → **2, 5**.
+- `[[2, 1], [1, 2]]`: trace 4, det 3 → λ² − 4λ + 3 → **1, 3**.
+- `[[4, 1], [2, 3]]`: trace 7, det 10 → **2, 5**.
 - 3 × 3, trace 9, two eigenvalues 2 and 3 → third **4** (check: 2 × 3 × 4 = 24 = det).
-- [[1, 1], [0, 1]]: λ = 1 twice, but A − I = [[0, 1], [0, 0]] has rank 1 → only **1** independent eigenvector.
+- `[[1, 1], [0, 1]]`: λ = 1 twice, but A − I = `[[0, 1], [0, 0]]` has rank 1 → only **1** independent eigenvector.
 
 ---
 
@@ -136,7 +136,7 @@ Methods: Gaussian elimination, Cramer's rule (xᵢ = det Aᵢ / det A), x = A⁻
 
 ## 9. Practice questions (with solutions)
 
-**Q1.** det [[2, 3], [1, 4]]?
+**Q1.** det `[[2, 3], [1, 4]]`?
 (a) 5 (b) 8 (c) 11 (d) −5
 **Answer: (a).**
 
@@ -176,19 +176,19 @@ Methods: Gaussian elimination, Cramer's rule (xᵢ = det Aᵢ / det A), x = A⁻
 (a) det ≠ 0 (b) det = 0 (c) rank = 3 (d) inconsistent
 **Answer: (b).**
 
-**Q11.** det [[1, 2, 3], [4, 5, 6], [7, 8, 9]]?
+**Q11.** det `[[1, 2, 3], [4, 5, 6], [7, 8, 9]]`?
 (a) 0 (b) 1 (c) −3 (d) 6
 **Answer: (a).**
 
-**Q12.** Rank of [[1, 2], [2, 4]]?
+**Q12.** Rank of `[[1, 2], [2, 4]]`?
 (a) 0 (b) 1 (c) 2 (d) 4
 **Answer: (b).**
 
-**Q13.** Eigenvalues of [[2, 1], [1, 2]]?
+**Q13.** Eigenvalues of `[[2, 1], [1, 2]]`?
 (a) 1, 3 (b) 2, 2 (c) 0, 4 (d) 1, 4
 **Answer: (a).**
 
-**Q14.** Eigenvalues of [[4, 1], [2, 3]]?
+**Q14.** Eigenvalues of `[[4, 1], [2, 3]]`?
 (a) 1, 6 (b) 2, 5 (c) 3, 4 (d) −2, −5
 **Answer: (b).**
 
@@ -196,8 +196,8 @@ Methods: Gaussian elimination, Cramer's rule (xᵢ = det Aᵢ / det A), x = A⁻
 (a) 4, 9 (b) 5, 10 (c) 3, 4 (d) 5, 7
 **Answer: (b).**
 
-**Q16.** Inverse of [[2, 1], [5, 3]]?
-(a) [[3, −1], [−5, 2]] (b) [[3, 1], [5, 2]] (c) [[−3, 1], [5, −2]] (d) [[2, −5], [−1, 3]]
+**Q16.** Inverse of `[[2, 1], [5, 3]]`?
+(a) `[[3, −1], [−5, 2]]` (b) `[[3, 1], [5, 2]]` (c) `[[−3, 1], [5, −2]]` (d) `[[2, −5], [−1, 3]]`
 **Answer: (a).**
 
 **Q17.** Determinant of a 3 × 3 skew-symmetric matrix?
@@ -232,11 +232,11 @@ Methods: Gaussian elimination, Cramer's rule (xᵢ = det Aᵢ / det A), x = A⁻
 (a) unique (b) infinite (c) no solution (d) two
 **Answer: (c).**
 
-**Q25.** For A = [[1, 2], [3, 4]], Cayley-Hamilton gives:
+**Q25.** For A = `[[1, 2], [3, 4]]`, Cayley-Hamilton gives:
 (a) A² − 5A − 2I = 0 (b) A² + 5A − 2I = 0 (c) A² − 5A + 2I = 0 (d) A² − 4A − 2I = 0
 **Answer: (a).** trace 5, det −2.
 
-**Q26.** Eigenvalues of [[3, 5], [0, 7]]?
+**Q26.** Eigenvalues of `[[3, 5], [0, 7]]`?
 (a) 3, 7 (b) 3, 5 (c) 5, 7 (d) 0, 10
 **Answer: (a).**
 
@@ -244,7 +244,7 @@ Methods: Gaussian elimination, Cramer's rule (xᵢ = det Aᵢ / det A), x = A⁻
 (a) 3 × 3 (b) 2 × 4 (c) 4 × 2 (d) undefined
 **Answer: (b).**
 
-**Q28.** Number of linearly independent eigenvectors of [[1, 1], [0, 1]]?
+**Q28.** Number of linearly independent eigenvectors of `[[1, 1], [0, 1]]`?
 (a) 0 (b) 1 (c) 2 (d) infinite
 **Answer: (b).**
 

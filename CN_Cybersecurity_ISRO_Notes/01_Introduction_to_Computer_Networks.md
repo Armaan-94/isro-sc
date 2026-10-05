@@ -425,3 +425,7 @@ The receiver strips headers in reverse (**decapsulation**).
 (a) IP address (b) Port number (c) MAC address (d) URL
 
 **Answer: (c).** Each link rewrites the frame with new source/destination MAC addresses; the IP addresses stay the same (ignoring NAT).
+
+---
+
+**Practice questions:** [7.01 Network Basics Topologies OSI](../ISRO_CS_Question_Bank/07_Computer_Networks/7.01_Network_Basics_Topologies_OSI.md)

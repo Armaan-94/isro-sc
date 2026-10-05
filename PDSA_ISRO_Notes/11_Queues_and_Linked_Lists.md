@@ -87,7 +87,7 @@ Each element has a **priority**; dequeue removes the **highest-priority** elemen
 | Sorted array/list | O(n) | O(1) |
 | **Binary heap** | **O(log n)** | **O(log n)** |
 
-Heaps are the standard choice (Chapter 12).
+Heaps are the standard choice ([Chapter 12](12_Trees_BST_AVL_Heaps.md)).
 
 ### 6. Queue/stack conversions
 
@@ -350,3 +350,7 @@ void f(Node *h) { if (h == NULL) return; f(h->next); printf("%d", h->data); }
 (a) 0 (b) 1 (c) n (d) n − 1
 
 **Answer: (b).** Only the last node's next.
+
+---
+
+**Practice questions:** [2.11 Queues and Linked Lists](../ISRO_CS_Question_Bank/02_Programming_DS_Algorithms/2.11_Queues_and_Linked_Lists.md)

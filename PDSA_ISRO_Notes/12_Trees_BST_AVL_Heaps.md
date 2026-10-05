@@ -333,7 +333,7 @@ Why? Every internal node contributes k child edges; total edges N − 1 = kI.
 
 ## 10. B-trees (pointer)
 
-Multi-way balanced search trees used for disk indexes are covered in DBMS Chapter 07.
+Multi-way balanced search trees used for disk indexes are covered in [DBMS Chapter 07](../DBMS_ISRO_Notes/07_File_Organization_Indexing_BTrees.md).
 
 ---
 
@@ -462,3 +462,7 @@ Multi-way balanced search trees used for disk indexes are covered in DBMS Chapte
 (a) Inorder gives sorted order (b) The minimum is always a leaf (c) Left child < right child always (d) It must be a perfect binary tree
 
 **Answer: (b).** With distinct keys, every internal node is larger than its children, so the minimum can't be an internal node: it must be a leaf.
+
+---
+
+**Practice questions:** [2.12 Trees BST AVL Heaps](../ISRO_CS_Question_Bank/02_Programming_DS_Algorithms/2.12_Trees_BST_AVL_Heaps.md)

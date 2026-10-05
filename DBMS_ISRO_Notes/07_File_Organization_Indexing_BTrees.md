@@ -348,3 +348,7 @@ With internal order p and leaf capacity p_leaf, and nodes filled to some fractio
 (a) B+ trees are unbalanced (b) Internal nodes don't store record pointers, so they hold more keys (higher fan-out) (c) B+ trees store fewer keys (d) B+ trees use hashing
 
 **Answer: (b).**
+
+---
+
+**Practice questions:** [6.07 File Organization Indexing BTrees](../ISRO_CS_Question_Bank/06_DBMS/6.07_File_Organization_Indexing_BTrees.md)

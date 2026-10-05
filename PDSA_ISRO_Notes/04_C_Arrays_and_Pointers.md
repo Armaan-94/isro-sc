@@ -437,3 +437,7 @@ printf("%s", s + 3);
 (a) 592 (b) 596 (c) 588 (d) 600
 
 **Answer: (a).** ((3 − 1) × 10 + (4 − 1)) × 4 = 23 × 4 = 92 → 592.
+
+---
+
+**Practice questions:** [2.04 C Arrays and Pointers](../ISRO_CS_Question_Bank/02_Programming_DS_Algorithms/2.04_C_Arrays_and_Pointers.md)

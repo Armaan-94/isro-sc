@@ -396,3 +396,7 @@ Is Zara in the table at the end?
 (a) 3 (b) 4 (c) 5 (d) 6
 
 **Answer: (c).** mgr 1: Aman, Neha, Arjun. mgr 3: Karan, Divya. Riya's mgr is NULL.
+
+---
+
+**Practice questions:** [6.09 SQL Basics DDL DML DCL TCL](../ISRO_CS_Question_Bank/06_DBMS/6.09_SQL_Basics_DDL_DML_DCL_TCL.md)

@@ -93,7 +93,7 @@ Total delay = Tt + Tp + Queuing + Processing
 BDP = Bandwidth × Propagation delay       (bits "on the wire")
 ```
 
-Think of the link as a pipe: BDP is the **volume** of the pipe. Example: 1 Gbps × 10 ms = 10⁷ bits in flight. (Some questions use RTT instead of one-way Tp; read carefully.) This idea drives window-size calculations in Chapter 04.
+Think of the link as a pipe: BDP is the **volume** of the pipe. Example: 1 Gbps × 10 ms = 10⁷ bits in flight. (Some questions use RTT instead of one-way Tp; read carefully.) This idea drives window-size calculations in [Chapter 04](04_Data_Link_Layer_Flow_Control_ARQ.md).
 
 ---
 
@@ -347,3 +347,7 @@ Encodes binary data as printable text (for email, JSON): **3 bytes (24 bits) →
 (a) 100 kbps (b) 500 kbps (c) 50 kbps (d) 800 kbps
 
 **Answer: (b).**
+
+---
+
+**Practice questions:** [7.02 Data Communication Fundamentals](../ISRO_CS_Question_Bank/07_Computer_Networks/7.02_Data_Communication_Fundamentals.md)

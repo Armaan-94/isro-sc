@@ -291,3 +291,7 @@ An expression is **safe** if every value in the result comes from the **domain o
 (a) a ⋈ symbol (b) using the same domain variable r in both membership conditions (c) a Cartesian product keyword (d) a ∀ quantifier
 
 **Answer: (b).**
+
+---
+
+**Practice questions:** [6.11 Relational Calculus TRC DRC](../ISRO_CS_Question_Bank/06_DBMS/6.11_Relational_Calculus_TRC_DRC.md)

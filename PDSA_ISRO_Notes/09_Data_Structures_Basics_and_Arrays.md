@@ -271,3 +271,7 @@ Store only non-zero entries as (row, column, value), plus a header (rows, column
 (a) 3108 (b) 3104 (c) 3112 (d) 3100
 
 **Answer: (a).** Element difference = (4 − 3) × 30 + (2 − 5) = 30 − 3 = 27. 3000 + 27 × 4 = 3108.
+
+---
+
+**Practice questions:** [2.09 Data Structures Basics and Arrays](../ISRO_CS_Question_Bank/02_Programming_DS_Algorithms/2.09_Data_Structures_Basics_and_Arrays.md)

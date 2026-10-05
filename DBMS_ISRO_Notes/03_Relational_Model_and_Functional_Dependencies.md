@@ -1,6 +1,6 @@
 # 03. The Relational Model and Functional Dependencies
 
-> **Why this chapter is the foundation of normalization.** Normalization (Chapters 05 and 06) is entirely driven by **functional dependencies**. If you can compute an **attribute closure** quickly and correctly, you can solve almost every key-finding and normal-form question. So we'll practise that skill until it's automatic.
+> **Why this chapter is the foundation of normalization.** Normalization (Chapters [05](05_Normalization_1NF_to_BCNF.md) and [06](06_Decomposition_MVD_4NF_5NF.md)) is entirely driven by **functional dependencies**. If you can compute an **attribute closure** quickly and correctly, you can solve almost every key-finding and normal-form question. So we'll practise that skill until it's automatic.
 
 ---
 
@@ -193,7 +193,7 @@ R(A, B, C, D, E), F = {A → B, BC → E, ED → A}.
 - (BCD)⁺: BC → E gives BCDE, ED → A gives ABCDE. **Key.**
 - (CDE)⁺: ED → A gives ACDE, A → B gives ABCDE. **Key.**
 
-(We'll learn to find all candidate keys systematically in Chapter 04.)
+(We'll learn to find all candidate keys systematically in [Chapter 04](04_Keys_and_Integrity_Constraints.md).)
 
 ---
 
@@ -376,3 +376,7 @@ Set: {A → B, A → D, A → C, B → C, D → C}.
 (a) A → B (b) AB → B (c) A → AB (d) B → A
 
 **Answer: (b).** The right side is a subset of the left. (Note (c) is **not** trivial: B is not in {A}.)
+
+---
+
+**Practice questions:** [6.03 Relational Model Functional Dependencies](../ISRO_CS_Question_Bank/06_DBMS/6.03_Relational_Model_Functional_Dependencies.md)

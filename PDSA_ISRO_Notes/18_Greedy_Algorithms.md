@@ -160,7 +160,7 @@ Items can't be split. Greedy by ratio can be wrong.
 
 Same Example 2 but 0/1: greedy by ratio takes items 1 and 2 (weight 30, profit 160) and can't fit item 3. But items 2 and 3 (weight 50) give **220**. Greedy is **not optimal**.
 
-Use **dynamic programming** (Chapter 19): O(nW).
+Use **dynamic programming** ([Chapter 19](19_Dynamic_Programming.md)): O(nW).
 
 ---
 
@@ -208,8 +208,8 @@ Choose the **maximum number** of non-overlapping activities (each with start sáµ
 
 ## 7. Other greedy algorithms (covered elsewhere)
 
-- **Kruskal's and Prim's MST** (Chapter 20).
-- **Dijkstra's shortest paths** (Chapter 20) (fails with negative edges).
+- **Kruskal's and Prim's MST** ([Chapter 20](20_Graph_Algorithms_MST_Shortest_Paths.md)).
+- **Dijkstra's shortest paths** ([Chapter 20](20_Graph_Algorithms_MST_Shortest_Paths.md)) (fails with negative edges).
 - Huffman, as above.
 - Scheduling to minimise average completion time: **shortest job first** (that's SJF from OS).
 
@@ -314,3 +314,7 @@ Choose the **maximum number** of non-overlapping activities (each with start sáµ
 (a) 25/12 â‰ˆ 2.08 (b) 3 (c) 2.5 (d) 1.5
 
 **Answer: (a).** 25 bits over 12 symbols.
+
+---
+
+**Practice questions:** [2.18 Greedy Algorithms](../ISRO_CS_Question_Bank/02_Programming_DS_Algorithms/2.18_Greedy_Algorithms.md)

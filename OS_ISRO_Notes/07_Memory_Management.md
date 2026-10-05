@@ -383,7 +383,7 @@ Used historically by Intel x86 (segmentation unit followed by paging unit). Mode
 
 A process can be temporarily moved **out of memory to a backing store** (disk) and later brought back. This lets the total memory of all processes exceed RAM. The **medium-term scheduler** decides. Swap time is mostly transfer time, proportional to the amount swapped.
 
-Example: a 100 MB process, disk transfer 50 MB/s → 2 s to swap out, 2 s to swap in, 4 s total. Swapping whole processes is slow, which is why modern systems swap **pages** (Chapter 08).
+Example: a 100 MB process, disk transfer 50 MB/s → 2 s to swap out, 2 s to swap in, 4 s total. Swapping whole processes is slow, which is why modern systems swap **pages** ([Chapter 08](08_Virtual_Memory_and_Page_Replacement.md)).
 
 ---
 
@@ -513,3 +513,7 @@ Example: a 100 MB process, disk transfer 50 MB/s → 2 s to swap out, 2 s to swa
 (a) Pages and frames have the same size (b) The page table maps pages to frames (c) Paging eliminates internal fragmentation (d) The offset is copied unchanged into the physical address
 
 **Answer: (c).** It eliminates **external** fragmentation; internal remains in the last page.
+
+---
+
+**Practice questions:** [5.07 Memory Management Paging Segmentation](../ISRO_CS_Question_Bank/05_Operating_Systems/5.07_Memory_Management_Paging_Segmentation.md)

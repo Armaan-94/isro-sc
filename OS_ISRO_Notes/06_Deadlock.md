@@ -467,3 +467,7 @@ Is the state safe? If yes, give a safe sequence.
 (a) Breaking mutual exclusion (b) Lock ordering to prevent circular wait (c) Requesting all resources at start (d) Preempting printers
 
 **Answer: (b).**
+
+---
+
+**Practice questions:** [5.06 Deadlock](../ISRO_CS_Question_Bank/05_Operating_Systems/5.06_Deadlock.md)

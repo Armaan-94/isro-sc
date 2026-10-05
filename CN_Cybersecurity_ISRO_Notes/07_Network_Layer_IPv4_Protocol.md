@@ -6,8 +6,8 @@
 
 ## 1. Network layer services
 
-- **Logical addressing:** IP addresses identify hosts globally (Chapter 08).
-- **Routing:** choosing paths through routers (Chapter 09).
+- **Logical addressing:** IP addresses identify hosts globally ([Chapter 08](08_Network_Layer_IP_Addressing_Subnetting_CIDR.md)).
+- **Routing:** choosing paths through routers ([Chapter 09](09_Network_Layer_Routing_Protocols.md)).
 - **Forwarding:** at each router, moving a packet from an input to the correct output interface.
 - **Packetizing:** encapsulating transport segments into datagrams.
 - **Fragmentation and reassembly.**
@@ -376,3 +376,7 @@ Transition mechanisms: **dual stack**, **tunneling** (IPv6 inside IPv4), **heade
 (a) a unicast datagram whose TTL expired (b) a datagram carrying an ICMP error message (c) an unreachable port (d) a datagram too big with DF set
 
 **Answer: (b).**
+
+---
+
+**Practice questions:** [7.07 IPv4 Header Fragmentation ICMP ARP](../ISRO_CS_Question_Bank/07_Computer_Networks/7.07_IPv4_Header_Fragmentation_ICMP_ARP.md)

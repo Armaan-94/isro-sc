@@ -472,3 +472,7 @@ int main() { Z *p = new Z(); delete p; }
 (a) concrete (b) still abstract (c) a compile error (d) a template
 
 **Answer: (b).**
+
+---
+
+**Practice questions:** [2.08 CPP Inheritance Polymorphism Templates](../ISRO_CS_Question_Bank/02_Programming_DS_Algorithms/2.08_CPP_Inheritance_Polymorphism_Templates.md)

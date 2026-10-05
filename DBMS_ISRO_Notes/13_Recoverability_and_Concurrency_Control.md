@@ -1,6 +1,6 @@
 # 13. Recoverability and Concurrency Control Protocols
 
-> **Two separate worries.** Serializability (Chapter 12) is about getting the **right answer** when everything commits. **Recoverability** is about what happens when something **aborts**. Then **concurrency control protocols** (locking, timestamps) are the practical machinery that produce good schedules automatically.
+> **Two separate worries.** Serializability ([Chapter 12](12_Transactions_ACID_Serializability.md)) is about getting the **right answer** when everything commits. **Recoverability** is about what happens when something **aborts**. Then **concurrency control protocols** (locking, timestamps) are the practical machinery that produce good schedules automatically.
 
 ---
 
@@ -380,3 +380,7 @@ Keep **several versions** of each item, each with a timestamp. Readers get the a
 (a) It can deadlock (b) It ensures recoverability (c) It is deadlock-free but may cause starvation (d) It doesn't ensure serializability
 
 **Answer: (c).**
+
+---
+
+**Practice questions:** [6.13 Recoverability and Concurrency Control](../ISRO_CS_Question_Bank/06_DBMS/6.13_Recoverability_and_Concurrency_Control.md)

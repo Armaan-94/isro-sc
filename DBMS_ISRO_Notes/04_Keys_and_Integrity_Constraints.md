@@ -39,7 +39,7 @@ Alternate keys = Candidate keys − {Primary key}
 - **Prime attribute:** belongs to **at least one** candidate key (not just the primary key!).
 - **Non-prime attribute:** belongs to **no** candidate key.
 
-These terms drive 2NF and 3NF (Chapter 05).
+These terms drive 2NF and 3NF ([Chapter 05](05_Normalization_1NF_to_BCNF.md)).
 
 ---
 
@@ -348,3 +348,7 @@ So B alone is not a candidate key.
 (a) non-prime (b) prime (c) a foreign key (d) a secondary key
 
 **Answer: (b).** Prime means "in **some** candidate key".
+
+---
+
+**Practice questions:** [6.04 Keys and Integrity Constraints](../ISRO_CS_Question_Bank/06_DBMS/6.04_Keys_and_Integrity_Constraints.md)

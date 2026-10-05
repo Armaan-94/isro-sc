@@ -420,3 +420,7 @@ Example: data blocks 1011, 0110, 1100. Parity = 1011 ⊕ 0110 ⊕ 1100 = 0001. I
 (a) 1100 ⊕ 1010 = 0110 (b) 1111 (c) 0000 (d) 1010
 
 **Answer: (a).** Parity = 1010 ⊕ 0110 = 1100. Rebuild = 1010 ⊕ 1100 = 0110.
+
+---
+
+**Practice questions:** [5.10 File Management RAID](../ISRO_CS_Question_Bank/05_Operating_Systems/5.10_File_Management_RAID.md)

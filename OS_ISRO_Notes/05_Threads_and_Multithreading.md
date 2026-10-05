@@ -45,7 +45,7 @@ Why must each have its own PC and registers? Because each is at a different poin
    thread1   thread2   thread3
 ```
 
-> **Trap.** Because threads share the heap and globals, **race conditions** between threads are just as real as between processes (Chapter 04). Separate processes are isolated by separate address spaces; threads are not.
+> **Trap.** Because threads share the heap and globals, **race conditions** between threads are just as real as between processes ([Chapter 04](04_Process_Synchronization.md)). Separate processes are isolated by separate address spaces; threads are not.
 
 ---
 
@@ -405,3 +405,7 @@ printf("x");
 (a) 3 (b) 6 (c) 7 (d) 8
 
 **Answer: (d).** All 2³ = 8 processes print once after the loop.
+
+---
+
+**Practice questions:** [5.05 Threads and Multithreading](../ISRO_CS_Question_Bank/05_Operating_Systems/5.05_Threads_and_Multithreading.md)

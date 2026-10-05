@@ -175,7 +175,7 @@ Level 0: {1}; level 1: {2, 3}; level 2: {4, 5, 6, 7}.
 
 **BFS finds shortest paths (fewest edges) in an unweighted graph.** The BFS tree's depth of each vertex is its distance from the source. DFS gives no such guarantee.
 
-For **weighted** graphs, use Dijkstra or Bellman-Ford (Chapter 20).
+For **weighted** graphs, use Dijkstra or Bellman-Ford ([Chapter 20](20_Graph_Algorithms_MST_Shortest_Paths.md)).
 
 ### Complexity
 
@@ -376,3 +376,7 @@ Both run in **O(V + E)**.
 (a) {1,2,3}, {4,5}, {6} (b) {1,2,3,4,5,6} (c) {1,2,3}, {4,5,6} (d) six singletons
 
 **Answer: (a).** 6 can't reach back to anything.
+
+---
+
+**Practice questions:** [2.13 Graphs DFS BFS Topological Sort](../ISRO_CS_Question_Bank/02_Programming_DS_Algorithms/2.13_Graphs_DFS_BFS_Topological_Sort.md)

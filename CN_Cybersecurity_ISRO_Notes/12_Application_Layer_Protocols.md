@@ -411,3 +411,7 @@ Automatically gives a host its **IP address, subnet mask, default gateway, DNS s
 (a) The browser generates their content (b) The server sets them; the browser stores and returns them to the same domain (c) They make HTTP stateful at the protocol level (d) They're sent only over HTTPS
 
 **Answer: (b).**
+
+---
+
+**Practice questions:** [7.12 Application Layer Protocols](../ISRO_CS_Question_Bank/07_Computer_Networks/7.12_Application_Layer_Protocols.md)

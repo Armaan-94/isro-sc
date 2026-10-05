@@ -594,3 +594,7 @@ This can lead to:
 (a) Allow only 4 philosophers to sit at once (b) Odd philosophers pick left first, even pick right first (c) Pick up both chopsticks only if both are available (d) Every philosopher picks left first, then right
 
 **Answer: (d).** That's the naive deadlock-prone version.
+
+---
+
+**Practice questions:** [5.04 Process Synchronization Semaphores](../ISRO_CS_Question_Bank/05_Operating_Systems/5.04_Process_Synchronization_Semaphores.md)

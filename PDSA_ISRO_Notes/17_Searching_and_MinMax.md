@@ -90,8 +90,8 @@ Search **47** in [3, 9, 15, 22, 31, 40, 47, 58, 66, 72] (indices 0 to 9):
 | **Interpolation search** | Guess the position by value: pos = lo + (key − a[lo]) × (hi − lo)/(a[hi] − a[lo]) | **O(log log n)** average for uniformly distributed data; O(n) worst | Sorted, roughly uniform |
 | **Exponential search** | Find range by doubling (1, 2, 4, 8, ...), then binary search | O(log n) | Sorted; good for unbounded lists |
 | **Ternary search** | Split into three parts | O(log₃ n), but **more** comparisons than binary search | Sorted / unimodal functions |
-| **Hashing** | Compute the slot | O(1) average | Hash table (Chapter 14) |
-| **BST search** | Go left/right | O(log n) balanced, O(n) skewed | BST (Chapter 12) |
+| **Hashing** | Compute the slot | O(1) average | Hash table ([Chapter 14](14_Hashing.md)) |
+| **BST search** | Go left/right | O(log n) balanced, O(n) skewed | BST ([Chapter 12](12_Trees_BST_AVL_Heaps.md)) |
 
 Jump size √n minimises the worst case: (n/m) jumps + (m − 1) linear steps is minimised at m = √n.
 
@@ -256,3 +256,7 @@ Exactly **n − 1** comparisons are necessary and sufficient.
 (a) 21 (b) 22 (c) 28 (d) 20
 
 **Answer: (a).** ⌈22.5⌉ − 2 = 23 − 2 = 21 (or 3 × 7 = 21 by pairs).
+
+---
+
+**Practice questions:** [2.17 Searching and Min Max](../ISRO_CS_Question_Bank/02_Programming_DS_Algorithms/2.17_Searching_and_Min_Max.md)

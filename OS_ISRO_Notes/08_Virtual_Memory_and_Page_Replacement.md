@@ -6,7 +6,7 @@
 
 ## 1. Why virtual memory?
 
-From Chapter 07, paging lets a process's pages sit in any frames. Now take one more step: **why must all pages be in memory at all?**
+From [Chapter 07](07_Memory_Management.md), paging lets a process's pages sit in any frames. Now take one more step: **why must all pages be in memory at all?**
 
 Most programs don't use all their code and data at once:
 - error-handling code that rarely runs,
@@ -444,3 +444,7 @@ Lesson: traversing arrays in storage order respects spatial locality.
 (a) find a free frame (b) update the page table (c) restart the faulting instruction (d) trap to the OS
 
 **Answer: (c).**
+
+---
+
+**Practice questions:** [5.08 Virtual Memory Page Replacement](../ISRO_CS_Question_Bank/05_Operating_Systems/5.08_Virtual_Memory_Page_Replacement.md)

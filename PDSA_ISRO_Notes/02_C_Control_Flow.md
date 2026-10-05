@@ -446,3 +446,7 @@ else printf("Not");
 (a) exits the while loop (b) exits only the switch (c) exits both (d) error
 
 **Answer: (b).**
+
+---
+
+**Practice questions:** [2.02 C Control Flow](../ISRO_CS_Question_Bank/02_Programming_DS_Algorithms/2.02_C_Control_Flow.md)

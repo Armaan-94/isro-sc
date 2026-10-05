@@ -383,3 +383,7 @@ int main() { int x = 5, y = 3; int m = MAX(x++, y); printf("%d %d", m, x); }
 (a) "w" (b) "a" (c) "r" (d) "w+"
 
 **Answer: (c).**
+
+---
+
+**Practice questions:** [2.06 Dynamic Memory Macros Files](../ISRO_CS_Question_Bank/02_Programming_DS_Algorithms/2.06_Dynamic_Memory_Macros_Files.md)

@@ -319,3 +319,7 @@ Chip sequences are generated using **Walsh tables**.
 (a) FDMA (b) TDMA (c) CDMA (d) Polling
 
 **Answer: (c).**
+
+---
+
+**Practice questions:** [7.03 Multiple Access ALOHA CSMA](../ISRO_CS_Question_Bank/07_Computer_Networks/7.03_Multiple_Access_ALOHA_CSMA.md)

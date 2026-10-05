@@ -334,3 +334,7 @@ Some properties are not handled by any staff member, so you can't find which bra
 (a) R(a, d) (b) R(a, b, d) with PK (a, b) (c) R(b, d) (d) R(a, b, d) with PK (a, b, d)
 
 **Answer: (b).**
+
+---
+
+**Practice questions:** [6.02 ER Modeling](../ISRO_CS_Question_Bank/06_DBMS/6.02_ER_Modeling.md)

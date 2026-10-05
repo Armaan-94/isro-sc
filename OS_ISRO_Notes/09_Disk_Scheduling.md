@@ -299,3 +299,7 @@ Use this second data set for Q1 to Q6: cylinders 0 to 199, head at **50**, movin
 (a) about 8.2 ms (b) about 4.2 ms (c) about 12.3 ms (d) about 8.3 ms
 
 **Answer: (a).** Rotation = 8.33 ms, latency = 4.17 ms, transfer = 8.33/500 ≈ 0.017 ms. Total ≈ 4 + 4.17 + 0.02 ≈ 8.19 ms.
+
+---
+
+**Practice questions:** [5.09 Disk Scheduling](../ISRO_CS_Question_Bank/05_Operating_Systems/5.09_Disk_Scheduling.md)

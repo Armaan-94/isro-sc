@@ -355,3 +355,7 @@ Schema: `Student(sid, sname, dept)`, `Course(cid, cname, credits)`, `Enrolled(si
 (a) 0 (b) 8 (c) 15 (d) 5
 
 **Answer: (b).** Every tuple appears unmatched, padded with NULLs: 5 + 3 = 8.
+
+---
+
+**Practice questions:** [6.08 Relational Algebra](../ISRO_CS_Question_Bank/06_DBMS/6.08_Relational_Algebra.md)

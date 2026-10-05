@@ -458,3 +458,7 @@ When you power on, the CPU runs a small program stored in ROM/firmware (the **bo
 (a) They are faster than system calls (b) Program portability and simplicity (c) They run in kernel mode (d) They avoid the mode switch
 
 **Answer: (b).** An API still ends up making the system call (so it's not faster and doesn't avoid the mode switch). Its value is portability and ease of use.
+
+---
+
+**Practice questions:** [5.01 OS Introduction Types System Calls](../ISRO_CS_Question_Bank/05_Operating_Systems/5.01_OS_Introduction_Types_System_Calls.md)

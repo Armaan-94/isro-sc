@@ -348,3 +348,7 @@ Real routers use tries (prefix trees) or TCAM hardware to do this at line rate.
 (a) Dijkstra (b) Bellman-Ford (c) Prim (d) Kruskal
 
 **Answer: (b).**
+
+---
+
+**Practice questions:** [7.09 Routing Protocols](../ISRO_CS_Question_Bank/07_Computer_Networks/7.09_Routing_Protocols.md)

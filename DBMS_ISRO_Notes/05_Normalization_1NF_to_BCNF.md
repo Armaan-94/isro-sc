@@ -13,7 +13,7 @@
 
 Every relation in a higher normal form is automatically in all the lower ones. A **BCNF** relation is in 3NF, 2NF and 1NF.
 
-FDs take us up to **BCNF**. 4NF and 5NF need multivalued and join dependencies (Chapter 06).
+FDs take us up to **BCNF**. 4NF and 5NF need multivalued and join dependencies ([Chapter 06](06_Decomposition_MVD_4NF_5NF.md)).
 
 ### Vocabulary refresher
 
@@ -122,7 +122,7 @@ Why does this still have redundancy? In the student-course-teacher version, the 
 
 ## 6. The checking procedure (use this every time)
 
-1. **Find all candidate keys** (Chapter 04 method).
+1. **Find all candidate keys** ([Chapter 04](04_Keys_and_Integrity_Constraints.md) method).
 2. Mark **prime** and **non-prime** attributes.
 3. For each FD X → Y (split Y into single attributes, ignore trivial ones):
    - **BCNF check:** is X a super key? If every FD passes, it's **BCNF**. Stop.
@@ -153,7 +153,7 @@ Why does this still have redundancy? In the student-course-teacher version, the 
 
 R(A, B, C, D, E, F, G, H), F = {CH → G, A → BC, B → CFH, E → A, F → EG}.
 
-From Chapter 04: candidate keys **AD, BD, DE, DF**.
+From [Chapter 04](04_Keys_and_Integrity_Constraints.md): candidate keys **AD, BD, DE, DF**.
 Prime: A, B, D, E, F. Non-prime: C, G, H.
 
 - A → BC: A is a proper subset of key AD; C is non-prime. **Partial dependency.**
@@ -184,7 +184,7 @@ Result: **BCNF**.
 ### Example 5
 
 R(A, B, C, D, E), F = {A → B, BC → E, ED → A}.
-- Keys: ACD, BCD, CDE (Chapter 04). All attributes prime.
+- Keys: ACD, BCD, CDE ([Chapter 04](04_Keys_and_Integrity_Constraints.md)). All attributes prime.
 - A → B: A not a super key, B prime ✓ for 3NF.
 - BC → E: not a super key, E prime ✓.
 - ED → A: not a super key, A prime ✓.
@@ -223,7 +223,7 @@ Example: R(A, B, C), F = {AB → C, C → A}. Violator: C → A.
 - Lossless? Common attribute C, and C → A, so C is a key of R1 ✓.
 - But **AB → C is lost** (A and B are in different tables). Not dependency preserving.
 
-This is why BCNF decomposition is **always lossless but not always dependency preserving**, while 3NF synthesis guarantees **both**. Chapter 06 covers this fully.
+This is why BCNF decomposition is **always lossless but not always dependency preserving**, while 3NF synthesis guarantees **both**. [Chapter 06](06_Decomposition_MVD_4NF_5NF.md) covers this fully.
 
 ---
 
@@ -334,3 +334,7 @@ This is why BCNF decomposition is **always lossless but not always dependency pr
 (a) 2 (b) 3 (c) 4 (d) 5
 
 **Answer: (c).** (A, B), (B, C), (C, D), (D, E). Each has its left side as the key.
+
+---
+
+**Practice questions:** [6.05 Normalization 1NF to BCNF](../ISRO_CS_Question_Bank/06_DBMS/6.05_Normalization_1NF_to_BCNF.md)

@@ -1,6 +1,6 @@
 # 10. SQL: Aggregates, GROUP BY, Joins, Set Operations, Subqueries, Views
 
-> **This is where SQL questions get tricky.** Almost every hard SQL MCQ hides one of three things: **NULL** handling in aggregates, **WHERE vs HAVING**, or **NOT IN with NULLs**. We'll trace every example by hand on the same tables as Chapter 09.
+> **This is where SQL questions get tricky.** Almost every hard SQL MCQ hides one of three things: **NULL** handling in aggregates, **WHERE vs HAVING**, or **NOT IN with NULLs**. We'll trace every example by hand on the same tables as [Chapter 09](09_SQL_Basics_DDL_DML_DCL_TCL.md).
 
 ---
 
@@ -519,3 +519,7 @@ SELECT dept, COUNT(*) FROM Emp WHERE salary > 45000 GROUP BY dept;
 (a) x IN (subquery) (b) x NOT IN (subquery) (c) x = ANY (subquery) (d) EXISTS (subquery)
 
 **Answer: (b).**
+
+---
+
+**Practice questions:** [6.10 SQL Aggregates Joins Subqueries Views](../ISRO_CS_Question_Bank/06_DBMS/6.10_SQL_Aggregates_Joins_Subqueries_Views.md)

@@ -255,7 +255,7 @@ So TCP is a **hybrid**: cumulative ACKs like **Go-Back-N**, buffering of out-of-
 | **Timeout** | Nothing came back at all | **Strong** |
 | **3 duplicate ACKs** | Later segments are getting through; one was lost | **Mild** |
 
-(This difference drives TCP congestion control in Chapter 11.)
+(This difference drives TCP congestion control in [Chapter 11](11_Transport_Layer_Congestion_Control_and_UDP.md).)
 
 ### When ACKs are generated (delayed ACK rules)
 
@@ -274,7 +274,7 @@ The receiver advertises **rwnd** (Window field) = free space in its buffer. The 
 LastByteSent − LastByteAcked ≤ rwnd
 ```
 
-If rwnd = 0, the sender stops and uses the **persist timer** to send small probes until the window reopens (Chapter 11).
+If rwnd = 0, the sender stops and uses the **persist timer** to send small probes until the window reopens ([Chapter 11](11_Transport_Layer_Congestion_Control_and_UDP.md)).
 
 ---
 
@@ -392,3 +392,7 @@ If rwnd = 0, the sender stops and uses the **persist timer** to send small probe
 (a) Stop-and-Wait (b) Go-Back-N (cumulative ACKs), with Selective-Repeat-like buffering (c) pure Selective Repeat (d) none
 
 **Answer: (b).**
+
+---
+
+**Practice questions:** [7.10 Transport Layer TCP](../ISRO_CS_Question_Bank/07_Computer_Networks/7.10_Transport_Layer_TCP.md)

@@ -208,3 +208,7 @@
 - Hub side: the hub with its 3 hosts and the router port = 1.
 - Direct host link = 1.
 - Total = 5 + 1 + 1 = **7**. Broadcast domains = 3.
+
+---
+
+**Practice questions:** [7.13 Networking Devices](../ISRO_CS_Question_Bank/07_Computer_Networks/7.13_Networking_Devices.md)

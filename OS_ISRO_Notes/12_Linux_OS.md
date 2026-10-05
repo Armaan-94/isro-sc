@@ -1,6 +1,6 @@
 # 12. Linux: Kernel, Job Scheduling and Memory Management
 
-> **Context.** Linux is the OS that runs most servers, all Android phones, most supercomputers, and many spacecraft ground systems. This chapter builds on UNIX (Chapter 11) and focuses on what Linux adds: its kernel design, job scheduling tools (`cron`, `at`, `batch`, `anacron`), and its memory allocators.
+> **Context.** Linux is the OS that runs most servers, all Android phones, most supercomputers, and many spacecraft ground systems. This chapter builds on UNIX ([Chapter 11](11_Unix_OS_and_Shell_Scripting.md)) and focuses on what Linux adds: its kernel design, job scheduling tools (`cron`, `at`, `batch`, `anacron`), and its memory allocators.
 
 ---
 
@@ -178,9 +178,9 @@ Accessing memory you don't own → hardware fault → kernel sends **SIGSEGV** �
 
 ### 5.3 Demand paging and page replacement
 
-Linux uses demand paging (Chapter 08). For replacement it uses an **LRU approximation** with two lists: **active** and **inactive** pages (a clock-like mechanism using the accessed bit). Recent kernels add **multi-generational LRU (MGLRU)**.
+Linux uses demand paging ([Chapter 08](08_Virtual_Memory_and_Page_Replacement.md)). For replacement it uses an **LRU approximation** with two lists: **active** and **inactive** pages (a clock-like mechanism using the accessed bit). Recent kernels add **multi-generational LRU (MGLRU)**.
 
-Algorithms you should know conceptually (covered in Chapter 08):
+Algorithms you should know conceptually (covered in [Chapter 08](08_Virtual_Memory_and_Page_Replacement.md)):
 
 | Algorithm | Rule | Belady's anomaly? |
 |---|---|---|
@@ -376,3 +376,7 @@ The kernel repeatedly allocates and frees objects of the **same type and size** 
 (a) extracts a gzip archive (b) creates a gzip-compressed archive of /data, verbosely (c) lists the archive (d) deletes /data
 
 **Answer: (b).** c = create, z = gzip, v = verbose, f = file name.
+
+---
+
+**Practice questions:** [5.12 Linux Scheduling and Memory](../ISRO_CS_Question_Bank/05_Operating_Systems/5.12_Linux_Scheduling_and_Memory.md)

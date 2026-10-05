@@ -382,3 +382,7 @@ Examples:
 (a) O(log n) (b) O(n) (c) O(n²) (d) O(2ⁿ)
 
 **Answer: (b).**
+
+---
+
+**Practice questions:** [2.19 Dynamic Programming](../ISRO_CS_Question_Bank/02_Programming_DS_Algorithms/2.19_Dynamic_Programming.md)

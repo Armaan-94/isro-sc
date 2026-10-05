@@ -299,3 +299,7 @@ Immediate update. Final values of X and Y after recovery?
 (a) Redo, Analysis, Undo (b) Analysis, Undo, Redo (c) Analysis, Redo, Undo (d) Undo, Redo, Analysis
 
 **Answer: (c).**
+
+---
+
+**Practice questions:** [6.14 Database Recovery](../ISRO_CS_Question_Bank/06_DBMS/6.14_Database_Recovery.md)

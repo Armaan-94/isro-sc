@@ -95,11 +95,11 @@ Counting from destination address to CRC (excluding preamble and SFD):
 - **Minimum = 6 + 6 + 2 + 46 + 4 = 64 bytes** (512 bits).
 - **Maximum = 6 + 6 + 2 + 1500 + 4 = 1518 bytes** (1522 with an 802.1Q VLAN tag).
 
-Why a **minimum**? For **CSMA/CD**: a frame must still be in transmission when news of a collision returns from the far end (Tfr ≥ 2Tp). At 10 Mbps with the maximum network span, that's 512 bits = **64 bytes**. (Chapter 03.)
+Why a **minimum**? For **CSMA/CD**: a frame must still be in transmission when news of a collision returns from the far end (Tfr ≥ 2Tp). At 10 Mbps with the maximum network span, that's 512 bits = **64 bytes**. ([Chapter 03](03_Data_Link_Layer_Multiple_Access.md).)
 
 Why a **maximum**? Historically, (1) memory (buffers) was expensive, and (2) to stop one station from hogging the shared medium for too long.
 
-The data field's max, **1500 bytes**, is the Ethernet **MTU** used by IP (Chapter 07).
+The data field's max, **1500 bytes**, is the Ethernet **MTU** used by IP ([Chapter 07](07_Network_Layer_IPv4_Protocol.md)).
 
 **Pad example:** an IP packet of 30 bytes needs **16 bytes of padding** to reach the 46-byte minimum.
 
@@ -258,3 +258,7 @@ Result: `0` `11111` **`0`** `11111` **`0`** `111` `0` = **01111101111101110** (1
 (a) 011111110 (b) 011111010 (c) 0111110110 (d) 01111110
 
 **Answer: (a).** After five 1s (positions 2 to 6), the next bit 0 is a stuffed bit: remove it. 0 11111 [0] 110 → 0 11111 110 = 011111110.
+
+---
+
+**Practice questions:** [7.06 Framing and Ethernet](../ISRO_CS_Question_Bank/07_Computer_Networks/7.06_Framing_and_Ethernet.md)

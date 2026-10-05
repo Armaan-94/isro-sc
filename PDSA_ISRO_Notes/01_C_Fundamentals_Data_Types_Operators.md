@@ -450,3 +450,7 @@ printf("%d", a);
 (a) 14 (b) 28 (c) 7 (d) 3
 
 **Answer: (a).** 7 × 4 = 28, then ÷ 2 = 14.
+
+---
+
+**Practice questions:** [2.01 C Data Types and Operators](../ISRO_CS_Question_Bank/02_Programming_DS_Algorithms/2.01_C_Data_Types_and_Operators.md)

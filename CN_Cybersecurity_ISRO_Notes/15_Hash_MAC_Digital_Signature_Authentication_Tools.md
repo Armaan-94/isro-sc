@@ -1,6 +1,6 @@
 # 15. Hashes, MACs, Digital Signatures, PKI, Authentication and Security Tools
 
-> **Where Chapter 14 left off.** Encryption hides data. But how do we know data wasn't **changed**, who **sent** it, and that the sender can't **deny** it later? That's what hashes, MACs and signatures do. Then we look at how keys are trusted (certificates, PKI), how users prove identity (passwords to Kerberos), and the tools that guard networks (firewalls, IDS/IPS, VPNs, TLS).
+> **Where [Chapter 14](14_Network_Security_and_Cryptography.md) left off.** Encryption hides data. But how do we know data wasn't **changed**, who **sent** it, and that the sender can't **deny** it later? That's what hashes, MACs and signatures do. Then we look at how keys are trusted (certificates, PKI), how users prove identity (passwords to Kerberos), and the tools that guard networks (firewalls, IDS/IPS, VPNs, TLS).
 
 ---
 
@@ -359,3 +359,7 @@ An **encrypted tunnel** over a public network, making remote users or sites appe
 (a) known worms (b) zero-day (previously unseen) attacks (c) port scans with known patterns (d) old viruses
 
 **Answer: (b).**
+
+---
+
+**Practice questions:** [7.15 Hash MAC Signatures Security Tools](../ISRO_CS_Question_Bank/07_Computer_Networks/7.15_Hash_MAC_Signatures_Security_Tools.md)

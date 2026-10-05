@@ -361,3 +361,7 @@ int rec(int n) { if (n == 1) return 1; return rec(n - 1) + rec(n - 1) + n; }
 (a) Θ(n) (b) Θ(n log n) (c) Θ(n²) (d) Θ(log n)
 
 **Answer: (b).** p = 1, f = Θ(n) → case 2.
+
+---
+
+**Practice questions:** [2.15 Asymptotic Analysis and Recurrences](../ISRO_CS_Question_Bank/02_Programming_DS_Algorithms/2.15_Asymptotic_Analysis_and_Recurrences.md)

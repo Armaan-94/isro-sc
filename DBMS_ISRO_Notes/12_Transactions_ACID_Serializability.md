@@ -377,3 +377,7 @@ If a schedule is **not conflict serializable** and has **no blind writes**, it i
 (a) active (b) partially committed (c) committed (d) failed
 
 **Answer: (b).**
+
+---
+
+**Practice questions:** [6.12 Transactions ACID Serializability](../ISRO_CS_Question_Bank/06_DBMS/6.12_Transactions_ACID_Serializability.md)

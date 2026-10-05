@@ -310,3 +310,7 @@ No connection setup, no ACKs, no retransmission, no ordering, no flow control, n
 (a) mandatory (b) optional (c) not present (d) covers only the header
 
 **Answer: (b).**
+
+---
+
+**Practice questions:** [7.11 Congestion Control UDP](../ISRO_CS_Question_Bank/07_Computer_Networks/7.11_Congestion_Control_UDP.md)

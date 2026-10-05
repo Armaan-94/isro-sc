@@ -149,13 +149,13 @@ Relax edges in **topological order**: **O(V + E)**, works with negative edges (n
 
 ### 10. All-pairs shortest paths
 
-- **Floyd-Warshall:** O(V³), DP (Chapter 19). Negative edges OK, no negative cycles.
+- **Floyd-Warshall:** O(V³), DP ([Chapter 19](19_Dynamic_Programming.md)). Negative edges OK, no negative cycles.
 - Run Dijkstra from every vertex: O(V (V + E) log V) for non-negative weights; better for sparse graphs.
 - **Johnson's algorithm:** reweights edges using Bellman-Ford, then runs Dijkstra from each vertex: O(VE log V); handles negative edges.
 
 ### 11. Unweighted graphs
 
-Use **BFS**: O(V + E) (Chapter 13).
+Use **BFS**: O(V + E) ([Chapter 13](13_Graphs_Representation_DFS_BFS_Topological_Sort.md)).
 
 ---
 
@@ -295,3 +295,7 @@ Use **BFS**: O(V + E) (Chapter 13).
 (a) O(V + E) (b) O(VE) (c) O(V³) (d) O(E log V)
 
 **Answer: (a).** Relax in topological order.
+
+---
+
+**Practice questions:** [2.20 MST and Shortest Paths](../ISRO_CS_Question_Bank/02_Programming_DS_Algorithms/2.20_MST_and_Shortest_Paths.md)

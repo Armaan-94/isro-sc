@@ -296,7 +296,7 @@ To get on a network, a host needs:
 - the **default gateway** (router for off-subnet traffic),
 - a **DNS server** address.
 
-DHCP (Chapter 12) hands all of these out automatically.
+DHCP ([Chapter 12](12_Application_Layer_Protocols.md)) hands all of these out automatically.
 
 ---
 
@@ -444,3 +444,7 @@ Lets many hosts with **private** addresses share **one (or a few) public** addre
 (a) the same network (b) different networks
 
 **Answer: (a).** /22: block 4 in the 3rd octet. 1 → 0; 2 → 0. Both in 10.1.0.0/22.
+
+---
+
+**Practice questions:** [7.08 IP Addressing Subnetting CIDR](../ISRO_CS_Question_Bank/07_Computer_Networks/7.08_IP_Addressing_Subnetting_CIDR.md)

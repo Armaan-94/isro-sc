@@ -300,3 +300,7 @@ In two-way communication, instead of sending a separate ACK frame, attach the AC
 (a) 1280 bits (b) 2560 bits (c) 640 bits (d) 5120 bits
 
 **Answer: (b).** Need 1/(1 + 2a) ≥ 0.5 → a ≤ 0.5 → Tt ≥ 2Tp = 40 ms → frame ≥ 64,000 × 0.04 = 2560 bits.
+
+---
+
+**Practice questions:** [7.04 Flow Control ARQ](../ISRO_CS_Question_Bank/07_Computer_Networks/7.04_Flow_Control_ARQ.md)

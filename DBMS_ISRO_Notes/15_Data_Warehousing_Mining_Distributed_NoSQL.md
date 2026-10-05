@@ -346,3 +346,7 @@ Columnar storage keeps each column's values together, so **aggregates** like SUM
 (a) natural join (b) union (c) Cartesian product (d) division
 
 **Answer: (b).**
+
+---
+
+**Practice questions:** [6.15 Data Warehousing Mining Distributed NoSQL](../ISRO_CS_Question_Bank/06_DBMS/6.15_Data_Warehousing_Mining_Distributed_NoSQL.md)

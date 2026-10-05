@@ -400,3 +400,7 @@ int main() { count(); count(); printf("%d", count()); }
 (a) All members can hold valid values simultaneously (b) Size equals the sum of members (c) Members share the same memory (d) Unions can't contain arrays
 
 **Answer: (c).**
+
+---
+
+**Practice questions:** [2.05 C Storage Classes Structures Unions](../ISRO_CS_Question_Bank/02_Programming_DS_Algorithms/2.05_C_Storage_Classes_Structures_Unions.md)

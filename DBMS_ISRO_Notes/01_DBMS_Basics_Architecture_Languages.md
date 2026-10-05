@@ -124,10 +124,10 @@ A **data model** is a way of describing data, relationships, meaning and constra
 | **Hierarchical** | **Tree**: each child has **exactly one parent** | Rigid; many-to-many is awkward. IBM IMS |
 | **Network** | **Graph**: a child can have **multiple parents** | More flexible than hierarchical; complex pointers. CODASYL |
 | **Relational** | **Tables** (relations) of rows (tuples) and columns (attributes) | **Most widely used**. Proposed by **E. F. Codd (1970)** |
-| **Entity-Relationship** | Entities, attributes, relationships (diagrams) | Used for **design**, not storage (Chapter 02) |
+| **Entity-Relationship** | Entities, attributes, relationships (diagrams) | Used for **design**, not storage ([Chapter 02](02_ER_Modeling.md)) |
 | **Object-oriented** | Objects with attributes and methods | Complex data: CAD, multimedia |
 | **Object-relational** | Relational + object features | PostgreSQL, Oracle |
-| **NoSQL / semi-structured** | Documents, key-value, column-family, graph | Chapter 15 |
+| **NoSQL / semi-structured** | Documents, key-value, column-family, graph | [Chapter 15](15_Data_Warehousing_Mining_Distributed_NoSQL.md) |
 
 > **Trap.** The network model **generalises** the hierarchical model (allowing multiple parents). They're related, not unrelated.
 
@@ -320,3 +320,7 @@ DBMS, data, application programs, and user interface processing all on **one** m
 (a) Naive user (b) Application programmer (c) DBA (d) Query optimizer
 
 **Answer: (c).**
+
+---
+
+**Practice questions:** [6.01 DBMS Basics Architecture Languages](../ISRO_CS_Question_Bank/06_DBMS/6.01_DBMS_Basics_Architecture_Languages.md)

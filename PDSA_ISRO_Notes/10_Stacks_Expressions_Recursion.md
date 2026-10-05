@@ -237,7 +237,7 @@ Scan: push every opening bracket; on a closing bracket, the top must be the **ma
 
 ## 9. Recursion and the call stack
 
-Each function call pushes an **activation record** (parameters, locals, return address); returning pops it. Recursion depth = maximum number of frames at once. (Details in Chapter 03.)
+Each function call pushes an **activation record** (parameters, locals, return address); returning pops it. Recursion depth = maximum number of frames at once. (Details in [Chapter 03](03_C_Functions_and_Recursion.md).)
 
 **Print order rule:** printing **before** the recursive call gives the call order; printing **after** gives the **reverse**.
 
@@ -386,3 +386,7 @@ int fun(int x, int y) { if (x == 0) return y; return fun(x - 1, x + y); }
 (a) top == 0 (b) top == N (c) top == N − 1 (d) top == −1
 
 **Answer: (c).**
+
+---
+
+**Practice questions:** [2.10 Stacks Expressions Recursion](../ISRO_CS_Question_Bank/02_Programming_DS_Algorithms/2.10_Stacks_Expressions_Recursion.md)
